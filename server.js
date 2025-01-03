@@ -12,6 +12,7 @@ const cartRoutes = require("./routes/cartRoutes");
 const { errorMiddleware } = require("./middleware/errorMiddleware");
 const session = require("express-session");
 
+//setup dotenv
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
